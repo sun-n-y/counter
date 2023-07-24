@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: aliceblue;
+
+}
+
+.hero {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.title {
+    text-transform: capitalize;
+    letter-spacing: .5rem;
+    font-weight: bold;
+}
+
+#value {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
